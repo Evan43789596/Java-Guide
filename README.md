@@ -1,6 +1,12 @@
-点击关注[公众号](#公众号)及时获取笔主最新更新文章，并可免费领取本文档配套的《Java面试突击》以及Java工程师必备学习资源。
+Github用户如果访问速度缓慢的话，可以转移到[码云](https://gitee.com/SnailClimb/JavaGuide )查看。
 
-少部分原创文章更新在了知识星球，关于我为什么要弄知识星球，请看这里：**[犹豫了很久，还是做了一个很久没敢做的事情](https://javaguide.cn/2019/01/02/chat/%E5%81%9A%E4%BA%86%E4%B8%80%E4%B8%AA%E5%BE%88%E4%B9%85%E6%B2%A1%E6%95%A2%E5%81%9A%E7%9A%84%E4%BA%8B%E6%83%85/)** ，优惠卷地址：[https://t.zsxq.com/iIqZBUR](https://t.zsxq.com/iIqZBUR) 。
+[阿里云高性能服务器，1核1g最低89，不限性能。](https://www.aliyun.com/minisite/goods?userCode=hf47liqn)
+
+更多原创内容和干货分享：
+
+1. 公众号 ： [JavaGuide](#公众号) （最新原创文章+免费领取本文档配套的《Java面试突击》以及Java工程师必备学习资源）
+2. B站：[Guide哥](https://space.bilibili.com/504390397) （各种干货视频和生活向视频，来个一键三连可好！）
+3. 知识星球 ：[JavaGuide读者圈](https://javaguide.cn/2019/01/02/chat/%E5%81%9A%E4%BA%86%E4%B8%80%E4%B8%AA%E5%BE%88%E4%B9%85%E6%B2%A1%E6%95%A2%E5%81%9A%E7%9A%84%E4%BA%8B%E6%83%85/) (优惠卷永久有效！)
 
 <p align="center">
 <a href="https://github.com/Snailclimb/JavaGuide" target="_blank">
@@ -15,6 +21,13 @@
   <a href="#公众号"><img src="https://img.shields.io/badge/PDF-Java面试突击-important.svg" alt="公众号"></a>
   <a href="#投稿"><img src="https://img.shields.io/badge/support-投稿-critical.svg" alt="投稿"></a>
   <a href="https://xiaozhuanlan.com/javainterview?rel=javaguide"><img src="https://img.shields.io/badge/Java-面试指南-important" alt="投稿"></a>
+</p>
+
+<h3 align="center">Sponsor</h3>
+<p align="center">
+<a  href="https://mp.weixin.qq.com/s/li9_YXNVxan6Qgt3Q9FYqA">
+<img src="https://my-blog-to-use.oss-cn-beijing.aliyuncs.com/2019-7/WechatIMG1.png" style="margin: 0 auto;width:400px"/>
+</a >
 </p>
 
 推荐使用  https://snailclimb.gitee.io/javaguide 在线阅读，在线阅读内容本仓库同步一致。这种方式阅读的优势在于：阅读体验会更好。
@@ -40,7 +53,7 @@
     - [Redis](#redis)
     - [数据库扩展](#数据库扩展)
 - [系统设计](#系统设计)
-    - [常用框架(Spring,SpringBoot)](#常用框架)
+    - [常用框架(Spring,SpringBoot,MyBatis)](#常用框架)
     - [数据通信/中间件(消息队列、RPC ... )](#数据通信中间件)
     - [权限认证](#权限认证)
     - [分布式 & 微服务](#分布式--微服务)
@@ -79,7 +92,7 @@
 
 **重要知识点详解：**
 
-- [用好Java中的枚举,真的没有那么简单!](docs/java/basis/用好Java中的枚举,真的没有那么简单!)
+- [用好Java中的枚举,真的没有那么简单!](docs/java/basis/用好Java中的枚举真的没有那么简单.md)
 - [Java 常见关键字总结：final、static、this、super!](docs/java/basis/final、static、this、super.md)
 
 ### 容器
@@ -119,6 +132,7 @@
 * [六 类加载器](docs/java/jvm/类加载器.md)
 * **[【待完成】八 最重要的 JVM 参数指南（翻译完善了一半）](docs/java/jvm/最重要的JVM参数指南.md)**
 * [九 JVM 配置常用参数和常用 GC 调优策略](docs/java/jvm/GC调优参数.md)
+* **[【加餐】大白话带你认识JVM](docs/java/jvm/[加餐]大白话带你认识JVM.md)**
 
 ### I/O
 
@@ -203,6 +217,10 @@
 
 - **[SpringBoot 指南/常见面试题总结](https://github.com/Snailclimb/springboot-guide)**
 
+#### MyBatis
+
+- [MyBatis常见面试题总结](docs/system-design/framework/mybatis/mybatis-interview.md)
+
 ### 数据通信/中间件
 
 - [数据通信(RESTful、RPC、消息队列)相关知识点总结](docs/system-design/data-communication/summary.md)
@@ -230,6 +248,10 @@
 ### 分布式 & 微服务
 
 - [分布式应该学什么](docs/system-design/website-architecture/分布式.md)
+
+#### Spring Cloud
+
+- [ 大白话入门 Spring Cloud](docs/system-design/micro-service/spring-cloud.md)
 
 #### API 网关
 
@@ -304,6 +326,8 @@
 - [Java学习路线和方法推荐](docs/questions/java-learning-path-and-methods.md)
 - [Java培训四个月能学会吗？](docs/questions/java-training-4-month.md)
 - [新手学习Java，有哪些Java相关的博客，专栏，和技术学习网站推荐？](docs/questions/java-learning-website-blog.md)
+- [Java 还是大数据，你需要了解这些东西！](docs/questions/java-big-data)
+- [Java 后台开发/大数据？你需要了解这些东西！](https://articles.zsxq.com/id_wto1iwd5g72o.html)（知识星球）
 
 ## 工具
 
@@ -345,6 +369,8 @@
 - [ ] 数据结构总结重构(---正在进行中---)
 
 ## 说明
+
+开源项目在于大家的参与，这才使得它的价值得到提升。感谢🙏有你！
 
 ### JavaGuide介绍
 
